@@ -1,0 +1,6 @@
+framework module MMBannerView {
+  umbrella header "MMBannerView-umbrella.h"
+
+  export *
+  module * { export * }
+}

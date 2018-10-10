@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MMBannerView_Example' do
+  pod 'MMBannerView', :path => '../'
+
+  target 'MMBannerView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
