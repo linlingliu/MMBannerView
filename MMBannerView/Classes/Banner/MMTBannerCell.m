@@ -7,7 +7,6 @@
 //
 
 #import "MMTBannerCell.h"
-//#import "UIImageView+webCache.h"
 
 #define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
 #define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
@@ -34,7 +33,6 @@
 
 - (void)show
 {
-    //[_img sd_setImageWithURL:[NSURL URLWithString:self.imageUrl]];
     _img.image=[UIImage imageNamed:self.imageUrl];
 }
 
